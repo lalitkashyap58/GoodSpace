@@ -1,0 +1,22 @@
+
+
+.main-container{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+
+    margin: 20px; 
+}
+.left-container{
+    display: block;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 25vh;
+}
+.right-container{
+    position: relative;
+    left:10vh;
+}
+

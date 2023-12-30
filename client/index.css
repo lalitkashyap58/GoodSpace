@@ -1,27 +1,24 @@
 /* App.css */
 
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
 body {
-    margin: 0; /* Remove default body margin */
-    padding: 0; /* Remove default body padding */
-    overflow: hidden; /* Hide overflow to prevent scrolling */
-  
-    /* Optionally, you can set a default font and color for the body */
-    font-family: 'Arial', sans-serif;
-    color: #333;
-  }
-  
-  .home-body {
-   
-    background-image: url("assets/Background.png");
-   
-    background-size: cover;
-    background-position: center;
-  
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-  }
+  background-image: url("./assets/Background.png");
+
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  height: 100vh; /* Set the height of the body to 100% of the viewport height */
+  background-size: cover; /* Cover the entire background */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Do not repeat the background image */
+  overflow: hidden; /* Hide the scrollbar */
+}
+
  
   
