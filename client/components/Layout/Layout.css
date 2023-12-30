@@ -1,0 +1,17 @@
+/* Layout.css */
+
+.background-image {
+    /* Set your background image path accordingly */
+    background-image: url("../../assets/Background.png");
+    /* Ensure the background image covers the entire screen */
+    background-size: cover;
+    background-position: center;
+    /* Set the height to 100vh (viewport height) for full-screen coverage */
+    height: 100vh;
+    /* Optionally, you can add other styling for the background */
+    /* ... */
+  }
+  
+  /* Add additional styling for the layout */
+  /* ... */
+  
