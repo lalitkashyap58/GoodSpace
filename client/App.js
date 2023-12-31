@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Layout from "./components/Layout/Layout";
 import HomePage from "./pages/HomePage/HomePage";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
-import Form from "./components/form/Form"
 
+import Chat1 from "./pages/Chat1/Chat1";
+import VideoChat from "./components/VideoChat/VideoChat";
 const AppLayout = () => {
   return (
     <React.Fragment>
@@ -28,8 +28,12 @@ const appRouter = createBrowserRouter([
           element: <HomePage />,
         },
         {
-          path:"/form",
-          element:<Form/>
+          path:"/Chat1",
+          element:<Chat1/>
+        },
+        {
+          path:"/video",
+          element:<VideoChat/>
         }
       ],
     },
